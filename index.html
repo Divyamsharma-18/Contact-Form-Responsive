@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h3>Contact Us</h3>
+
+    <form class="form" id="myForm" >
+      <div class="name">
+        <div id="name">
+          First Name *
+          <input type="text" id="naming" required>
+        </div>
+        <div id="name">
+          Last Name *
+          <input type="text" id="naming" required>
+        </div>
+      </div>
+      <div class="emailBox">
+          Email Address *
+        <input type="email" id="emailId" required>
+      </div>
+      <div class="radio">
+        Query Type *
+        <div class="querybox">
+          <div id="query">
+            <input type="radio" required name="querySelect" id="circle">
+            <p>
+            General Enquiry
+            </p>
+          </div>
+          <div id="query">
+            <input type="radio" required name="querySelect"  id="circle">
+            <p>
+              Support Enquiry
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="msg">
+        Message *
+        <input type="text" required id="msgBox">
+      </div>
+      <div class="check">
+        <input type="checkbox" required>
+        <p>
+          I consent to being contacted by the team *
+        </p>
+      </div>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(148, 38%, 91%);
+    font-size: 200;
+}
+.container {
+    font-family: 'Karla', sans-serif;
+    margin: 10%;
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    color: hsl(186, 15%, 59%);
+    font-size: 12px;
+}
+h3 {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.name {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+}
+#naming{
+    display: flex;
+    flex-direction: column;
+}
+#naming {
+    width: 165px;
+    height: 30px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+}
+.emailBox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#emailId{
+    width: 345px;
+    height: 30px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+}
+.radio{
+    margin-top: 20px;
+}
+.querybox{
+    display: flex;
+    justify-content: space-around;
+}
+#query{
+    width: 170px;
+    height: 30px;
+    gap: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+    display: flex;
+}
+#circle{
+    margin-top: 6px;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#msgBox{
+    width: 340px;
+    height: 50px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+}
+.check{
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#submit{
+    width: 340px;
+    height: 30px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 4px;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+}
+input:focus{
+    background-color: hsl(148, 38%, 91%);
+}
+input:active,#query:active{
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(169, 82%, 27%);
+}
+
+
